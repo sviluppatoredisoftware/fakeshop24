@@ -40,17 +40,16 @@ body{
     display:flex;
     flex-direction: column;
     height:100%;
-    max-width: 80%;
-    flex:1;
-    max-width: 80vp;
+    max-width: 100%;
     min-width: fit-content;
+    flex:1;
 }
 .headerOut{
     display:flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 2rem;
-    gap: 10rem;
+    padding: 2rem 4rem 4rem;
+    gap: 4rem;
 }
 #welcome{
     flex:none;
@@ -101,4 +100,39 @@ body{
     font-size: 2rem;
     font-weight: 700;
     flex:none;
+}
+
+.info-block{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 4rem;
+    gap: 4rem;
+    background-color: white;
+    .info-header{
+        font-size: 36px;
+        font-weight: 900;
+        color: #1F2937;
+    }
+    .info-pics{
+        display:flex;
+        justify-content: center;
+        gap:4rem;
+        flex-wrap: wrap;
+        
+        .ipt{
+            flex:none;
+            max-width: 15rem;
+            text-align: center;
+            color: #1F2937;
+        }
+
+        img{
+            flex:none;
+            width:15rem;
+            height:15rem;
+            border: 0.3rem solid #3882F6;
+            border-radius: 1rem;
+        }
+    }
 }
