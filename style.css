@@ -117,7 +117,7 @@ body{
     .info-pics{
         display:flex;
         justify-content: center;
-        gap:4rem;
+        gap:8.6rem;
         flex-wrap: wrap;
         
         .ipt{
