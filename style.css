@@ -39,6 +39,7 @@ body{
 .container{
     display:flex;
     flex-direction: column;
+    align-content: center;
     height:100%;
     max-width: 100%;
     min-width: fit-content;
