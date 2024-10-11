@@ -30,8 +30,7 @@ button{
 body{
     background-color: black;
     display:flex;
-    justify-content: center;
-    align-content: center;
+
     height: 100%;
     width: 100%;
     margin: 0;
@@ -40,7 +39,6 @@ body{
 .container{
     display:flex;
     flex-direction: column;
-    align-items: center;
     align-content: center;
     height:100%;
     max-width: 100%;
@@ -150,7 +148,7 @@ body{
     background-color: #E5E7EB;
     padding: 4rem;
     .zinside{
-        flex:initial;
+        flex:1;
         display:flex;
         flex-direction: column;
         max-width: 76rem;
