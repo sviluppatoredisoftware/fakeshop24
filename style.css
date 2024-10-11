@@ -55,15 +55,17 @@ body{
     flex:none;
     display:flex;
     flex-flow: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: space-center;
     width:400px;
     height:250px;
+    gap:1.6rem;
     h1{
-        flex:1;
+        flex:none;
         font-size: 6rem;
     }
     p{
-        flex:1;
+        flex:none;
         font-size: 1.6rem;
     }
 }
@@ -71,7 +73,6 @@ body{
     flex:1;
     display:flex;
     justify-content: center;
-    
     flex-wrap: wrap;
     gap:6rem;
 }
@@ -113,7 +114,7 @@ body{
     gap: 4rem;
     background-color: white;
     .info-header{
-        font-size: 36px;
+        font-size: 3.6rem;
         font-weight: 900;
         color: #1F2937;
     }
@@ -138,4 +139,75 @@ body{
             border-radius: 1rem;
         }
     }
+}
+.zcont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 4rem;
+    .zinside{
+        display:flex;
+        flex-direction: column;
+        max-width: 76rem;
+        color: #1F2937;
+        font-style: italic;
+        gap:1rem;
+            div{
+                flex:none;
+                font-size: 3.6rem;
+                font-weight: light;
+                ;
+            }
+            span{
+                flex:none;
+                align-self: flex-end;
+                font-size: 2rem;
+                font-weight: 700;
+            }
+    }
+}
+.White{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    .Blue{
+        flex:1;
+        background-color: #3882F6;
+        max-width: 86rem;
+        padding:3rem 6rem;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0.8rem;
+        .text{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            gap:0.4rem;
+            .t1{
+                flex:initial;
+                font-size: 2.4rem;
+                color:#F9FAF8;
+            }
+            .t2{
+                flex:initial;
+                font-size:1.8rem;
+                color:#E5E7EB;
+            }
+        }
+        button{
+            border:0.2rem solid white;
+        }
+    }
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: #1F2937;
+    font-size: 1.337rem;
 }
