@@ -147,6 +147,7 @@ body{
     background-color: #E5E7EB;
     padding: 4rem;
     .zinside{
+        flex:initial;
         display:flex;
         flex-direction: column;
         max-width: 76rem;
